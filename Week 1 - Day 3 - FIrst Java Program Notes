@@ -1,0 +1,47 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+public: is a Java Access Modifier
+
+static: is a keyword in Java (Non-Access Modifiers) - here static means that this method can be invoked without first creating an instance of our class
+
+void: is the return type of the method - in this case the method returns nothing
+
+string[] args => 'args' is a variable that represents any value passed into the methos - String[] 'String awway' means that this methid can take any nymber of String arguments
+
+public static void main(String[] args) {
+}
+
+All variables in Java only hold a single calue
+
+Primitives reserve a fixed amount od memory to hold a value of a specifiv type
+  
+    Wholse Numbers:
+    byte -> 8 bits  - only store values between -126 abd 127
+    short -> 16 bits
+    char -> 16 bits (but it's only positive numbers)
+    int -> 32 bits
+    long -> 64 bits
+    
+    
+    Decimal Numbers: (1.05, 400.00)
+    float 
+    double
+    
+    Other:
+    boolean - stores true or false (which are keywords in Java)
+    
+    Everything else is a reference variable (meaning it's holding a reference to an object memory)
