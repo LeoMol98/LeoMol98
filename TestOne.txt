@@ -3,3 +3,33 @@ document with nano in git bash
 
 Lets Put Some Instructions on How to use this thing and how to use the
 command line or in this Case git bash
+
+List of Codes Most used:
+
+"cd" is used to change directory, meaning to change from one folder to
+another
+
+"ls" is to list the items in a directory: files, folders, etc..
+
+"mkdir" is to make new directories
+
+"pwd" is to print the working directotry source in which you're in
+
+"git add ."
+"git commit"
+"git push"
+"git pull"
+
+cat - the concatenate command prints the contents of a file to the console. cat hello.txt
+head - the head command prints the first ten lines of a file to the console. head hello.txt
+tail - the tail command prints the last ten lines of a file to the console. tail hello.txt
+
+
+mv Directry
+
+mv - the move command will rename or move a file or entire directory with the recursive flag.
+rename a hello.txt to goodbye.txt: mv hello.txt goodbye.txt
+move hello.txt to the goodbye directory: mv hello.txt goodbye/.
+rename the hello directory to goodbye: mv -r hello goodbye
+
+you can find more commands in RevaturePro in case you need them under the curriculum tab
