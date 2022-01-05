@@ -1,0 +1,66 @@
+#Java
+-Java is an object- oriented programming language.
+- It's also a platform developed by Sun Microsystems (Oracle)
+#Features
+
+**Platform Independence**
+- a JAca application can be compiled and executed on any platform supported by Java
+- WORA -> Write Once, Run Anywhere
+
+**Clear, verbose syntax**
+-Java has a C-like syntax (c#, C++)
+-many elements of the language are easy to read and widely used
+-The Java API (Appliaction Programming Interface) is also written using verbose, descriptive naming conventions, which makes it simple to parse (understand) large code bases
+
+**Multi-paradigm**
+-while Java is Object-oriented, it does support other programming paradigm (procedural, functional, imperative, generic, concurrent)
+
+**Garbage collection**
+-the JVM (Java Virtual Machine) automatically performs memory  management
+  - automatic memory deallocation of unused object at runtime
+ - as developers, programs can be written without the need for complex memory management
+ 
+ **Multithreading**
+ -Java supports multithreading at both the language and standard library levels
+    -it allows concurrent and parallel execution of several parts of Java Program
+    
+    # JDK, JRE, JVM #
+    
+    -JDK(Java Development Kit) included the JRE(Java Runtime Environment) and the JVM(Java VIrtual Machine)
+    -When we write and save our java files we will be saving them in .java files
+    -Our .java saved files go ti the JDK which it compiles it and turns to .class files or Uava Byte code, then it takes that compiled byte code to turn it into binary/machine 
+    language and its run by your machine
+    
+##Object-Oriented Programmin(OOP)
+-in OOP, a progrma is organized into ibjects (units) that encapsulate fields and methods
+    -fields represent an objects state
+    -methods are used to control.change that state or perform some function
+    
+    ##Thr 4 Pillars of OOP
+    **Abstraction**
+    **Polymorphism**
+    **Inheritance**
+    **Encapsulation**
+    
+    - a nice way to remember these (A PIE)
+    
+    ## Classes vs Objects vs Reference Variable
+    
+    **Class**: is a template used to instantiate (create) objects
+    -also called a *type* when used as a *reference variable*
+    
+    **Object**: is an insrance of a class in memory
+    -In Java we *never* interact with Objects directlt
+    -instead we interact with them through their reference variable
+    
+    **Reference Variable**: the memory address used b y the JVM to find a particular object's lication in memory
+    -the reference variable is a variable that stores a reference to an object (in memory)
+ 
+ 
+ example**
+ 
+ String someVar = new String ("Hello World!") ;
+ 
+ The first "String" is the class the "someVar" is the reference variable
+ the line of code after the "=" is the instantiation of a new object
+    
