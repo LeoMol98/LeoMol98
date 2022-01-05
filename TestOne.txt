@@ -1,0 +1,5 @@
+Hello World - This is my first test outside of Class on edditing a 
+document with nano in git bash
+
+Lets Put Some Instructions on How to use this thing and how to use the
+command line or in this Case git bash
