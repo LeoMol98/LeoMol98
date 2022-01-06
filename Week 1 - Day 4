@@ -1,0 +1,81 @@
+What is Polymorohisim
+  MY Definition - Polymorphism Definition – Polymorphism is one of the four pillars of Object-Oriented Languages, it allows our code to be flexible, the code’s methods and instances of classes can change at compile time depending on the inheritance that the developer sets for these classes.
+
+##Different Group Definitions -
+   - Polymorphism is an Object Oriented Programming language property in Java that allows you to modify methods that have the same name but have different behaviors whether it's overloading or overriding.
+   - Polymorphism is a class or task that can take on many forms that can perform a single action in different ways that allows our code to be more flexible for example, method overloading or overriding.
+   - Polymorphism-changing the behavior of objects that allows for them to take on different properties and states based on context.
+        Mostly done through methods that child classes inherit and then overriding and change the parameters (fruit has a color, and strawberry's color is red) and overloading the method to give more parameters. (strawberries are red, and they have a green stem). Used to make it so the code doesn't become redundant.
+   - Polymorphism is a pillar of OOP that inherits methods and alters those methods
+      to perform different tasks in comparison to their original method. There is Dynamic
+      and Static Polymorphism which can be differentiated by where the altered method is
+      executing as well as how the inherited method is being altered.
+      
+ ##Method Overloading Defintiion - 
+   When you change the method return type the system will give you an error because you cannot overridew a method by changing the return type, it is not
+    a correct way to override a method, in fact that is not method oberriding
+    
+ ##Encapsulation##
+  - Objects should group together related variables and methods
+  -Objects should be in complete control of themselves
+      - Any change in state of the Object go through the ibject itseld
+  -Data Hiding is another way to talk about Encapsulating
+      -Because the object has the sole responsability for its fields
+      -and not outside objects or function should interfere
+  - We use Access Modifiers to Encapsulate our code
+    -public
+    -private
+    -protected 
+    -default
+- This is *NOT* security (because access modifiers can be changed at runtime using *Reflection*
+
+-Making something Private means its only accesible within the class it is derfined/declared 
+-Protected -> only accesible within the same pasckage OR in a child class
+    -Protected variables are not accesible outside of their package unless the class is a child
+    
+-Absence of an access modifier privides default access tot the field or method
+  - default access is package -> cannot access outside of the package where it is delcares
+    
+    
+    
+- Its best practice to make your fields private and then write public methood to tinteract with them
+ -Getters and Setters (Accessors and Mutators)
+  -they are always public
+  -they should be names in this way : Getter: public getNameofVariableWeAreGetting() { return name; }
+    - Setter : public voud setNameofVariabletring newName){name = newName}
+    We can use our getters and setters to give rules of what we will receive or give in the get or set function
+    
+    
+    
+ ##Constructors
+ 
+ - Constructors - are used to create objects - we call this 'instantiating a class
+    
+    
+    
+ ##Abstraction
+ - By simplifying objects ti a set of useful features, we hide irrelevant details, reduce compelexity , and increase efficiency
+ - We hide the complexity and present ta cleaner and simpler product.
+ - We can achieve abstraction in a few ways:
+    - Abstract Class
+    -Insterfaces
+    -Libraries and Packages
+    
+    
+    
+ ##Interfaces
+  -Interfaces define a new (data) type
+  -We can NOT directly instantiate interfaces
+  
+  -Inside of this  we put all of the things we want to relate to what it means to be (for example) a 'swimmer' (an animal that swims)
+ -any variables in an interface are public, final and abstract
+  -EVERy method in an interface is public and abstract
+  
+    
+ ##Wrapper Classes
+ -All primitive datatypeds in Java have a corresponding Wrtapper classes so they can be treated as objects
+  to make it an "object" ot wrapper clase we have to make the first letter cappital letter
+  
+  
+
+  
