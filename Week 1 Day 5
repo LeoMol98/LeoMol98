@@ -1,0 +1,109 @@
+
+
+##Arrays
+-Arrays in Java are  objects that contain elements of a similar data type (QC wants us to say Arrays are objects)
+-Ekements in Java arrays are stored contigously in memory
+-Java aeeays inherit from the Object Class (and imolements the Serializeable and Cloeneable Interfaces)
+-We can store primitive data type or objects in an Array
+
+Declarinf an array:
+int[] intArray = new int[5]; //when we're initializing an emoty awway, we need to specify its length "[5]"
+
+* // int otherArray[] = new int[10]; //also correct syntax but not as common
+
+//Declare an array usint the below syntax -> an awway literal
+int[] intArrLit - {1, 2, 3, 155, 12, 333, 98, 99};
+
+- because Arrays are obect in Java we have some properties to woerk with
+
+- the index of an array starts at 0, we can refere to the individual elements inside of the array by pointing at its index,
+  the index of an array willa lways be one less than its lenght
+  
+  -you can only have one type of element inside an array of certain elements, for example inside of an array of string you can only have strings
+  
+  
+  - interate over an aeeay is done with a for loops
+    -for loops - allow us to repeast a block of code ass many times as necessary
+       
+       
+       
+  -cinditional loops can be nested inside each other    
+  
+  
+  
+  ##SwitchStatemens
+  -Switch statementd check some variable against multiple, defined values
+    and then excecutes code if that value of the variale matches
+  -Withoout a break keyword all the cases after the ture case will be true so you want to put a break afetr each case
+  
+  
+  
+  
+  ##SDLC - Software Development Life Cycle
+  
+ -The SDLC is a series of steprs that we (as developers) go thotugh when we are creating new products.
+ 
+ -It encompasses methedologies and framworks 
+  -Methodologies: broader categories of developement
+  -Frameworks: a specific, more detailes implementation of those methodologies
+  
+-Two methodologies we are concerining ourselves with Agile and Waterfall.
+
+-These two methodologies are different (they implement the SDLC steps differently), they both use the same steps
+
+
+##Steps
+
+##The Desing Phase
+1. **Analysis of the Existing System*
+  -What is the purpose of the current product
+  -identify areas of improvement
+  
+2. **System requirements are identified**
+- we propose new features to be added to our product.application
+-address anu existinf concerns
+
+3. **Proposed system define**
+  -overall design is developed
+  -choose the tech stack (if we're working with a new product)
+  
+## The Developement Phase
+4. **New system is developed**
+    - implementing the design thath we came up with in step 3
+    -this is where the coding actually happens
+    
+ 5. **Testing/Integration Process**
+ -test new features (individdually on their own)
+ -test for compatability  (integrated with the rest of the code base)
+ 
+ ### Delivery Phase
+ 6. **Maintenance and Monitoring**
+  - deployed our product with updated features
+  -spend time reporting (i.r areas of deficiency)
+      - the info from this step will inform the next cycle of developement
+      
+ **Products not Projects**
+ -mo beggining or enf to a project
+ -developement happens in phases, ehoch cycle the steps abpve, continuesly
+ 
+ 
+**MVP**: Minumum Viable Product
+
+##Agile Methodology
+ - Mindset thath individuals or (more commonly ) teams can inco4rporate into their everyday work in order to efficiently develop the applications they working on
+ -developement happens in phases that cycle through stages
+ 
+ - Our highest priority is that we have a working application (MVP)
+ - we don't rigidly ashere to plans (like we would in a waterfall methodology)
+    -we remain adaptive/felxible/agile/reactive
+ In Agile Developement we care about:
+  - Working Software over Documentaiton
+  
+  -We don't rigidly adhere to plans (a big focus of Agile development)
+  
+  - Customer/Client sollaboration over contracts
+ 
+ 
+ ###Aside
+ The SDLC is closely linked with DevOps - ande the ideas od COntinues Integrations, COntinuous Delivery and COntinuous Delpoyment
+    
